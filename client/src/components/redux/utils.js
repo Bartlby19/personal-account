@@ -1,4 +1,4 @@
-export const sendRequest = async (param, url, method = "GET") => {
+export const  sendRequest = async (data, url, method) => {
     let obj = {
         method: method,
         headers: {
@@ -6,11 +6,9 @@ export const sendRequest = async (param, url, method = "GET") => {
             'Accept': 'application/json'
         }
     };
-    let response;
-    if (param) {
-        response = await fetch(url + new URLSearchParams(param), obj);
-    } else {
-        response = await fetch(url, obj);
+    if (data) {
+        obj.body =JSON.stringify(data)
     }
+    let response = await fetch(url, obj);
     return await response.json();
 };

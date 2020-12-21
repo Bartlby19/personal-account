@@ -1,35 +1,30 @@
-import {GAMES_LOADED, HIDE_LOADER, SHOW_LOADER} from "./types";
+import {CHEK_USER, LOAD_USER_INFO,CLOSE_POPUP} from "./types";
 import {sendRequest} from "./utils";
 
-export function getGames(param=null) {
+export function chekUser() {
     return async dispatch => {
-        dispatch(showLoader())
-        let url = "/games/list/";
-        let newParam;
-        if (param) {
-            newParam = {
-                limit: param.rowsPerPage,
-                offset: param.page*param.rowsPerPage,
-                sortColumn: (param.orderBy).toUpperCase(),
-                sortDirection: (param.order).toUpperCase()
-            };
-            url = "/games/list?";
-        }
-        const response = await sendRequest((newParam), url);
-        dispatch({type: GAMES_LOADED, payload: response, paramLoad: param})
-        dispatch(hideLoader())
+        // dispatch(showLoader())
+        let url = "main/authorization";
+        const response = await sendRequest(url,"GET");
+        dispatch({type: CHEK_USER, payload: response})
+        // dispatch(hideLoader())
     }
 }
 
-export function showLoader() {
-    return {
-        type: SHOW_LOADER
+export function loadUserInfo(userInfo) {
+    return async dispatch => {
+        // dispatch(showLoader())
+        let url = "main/registration";
+        const response = await sendRequest(userInfo,url,"POST");
+        dispatch({type: LOAD_USER_INFO, payload: response})
+        // dispatch(hideLoader())
     }
 }
 
-export function hideLoader() {
+
+export function closePopup() {
     return {
-        type: HIDE_LOADER
+        type: CLOSE_POPUP
     }
 }
 

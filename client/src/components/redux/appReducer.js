@@ -1,15 +1,18 @@
-import {HIDE_LOADER, SHOW_LOADER} from "./types";
+import {CHEK_USER, LOAD_USER_INFO, CLOSE_POPUP} from "./types";
 
 const initialState = {
-    loading: false,
+    addressList: false,
+    registrationStatus: false
 }
 
 export const appReducer = (state = initialState, action) => {
     switch (action.type) {
-        case SHOW_LOADER:
-            return {...state, loading: true}
-        case HIDE_LOADER:
-            return {...state, loading: false}
+        case CHEK_USER:
+            return {...state, addressList: action.payload}
+        case LOAD_USER_INFO:
+            return {...state, registrationStatus: action.payload}
+        case CLOSE_POPUP:
+            return {...state, registrationStatus: false}
         default:
             return state
     }

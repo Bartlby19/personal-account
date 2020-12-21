@@ -12,7 +12,6 @@ class AuthorizationPanel extends React.Component {
 
         this.handleInputChange = this.handleInputChange.bind(this)
     }
-
     handleInputChange(event) {
         const target = event.target
         const value = target.value
@@ -21,6 +20,10 @@ class AuthorizationPanel extends React.Component {
             [name]: value
         })
     }
+
+
+
+
     render() {
         return (
             <div className="body bodyColor">
