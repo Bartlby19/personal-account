@@ -1,12 +1,12 @@
-import {CHEK_USER, LOAD_USER_INFO,CLOSE_POPUP} from "./types";
+import {LOG_IN_USER, LOAD_USER_INFO,CLOSE_POPUP} from "./types";
 import {sendRequest} from "./utils";
 
-export function chekUser() {
+export function logInUser() {
     return async dispatch => {
         // dispatch(showLoader())
         let url = "main/authorization";
         const response = await sendRequest(url,"GET");
-        dispatch({type: CHEK_USER, payload: response})
+        dispatch({type: LOG_IN_USER, payload: response})
         // dispatch(hideLoader())
     }
 }

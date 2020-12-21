@@ -1,6 +1,8 @@
 import React from 'react';
 import "./RegistrationPanel.css"
 import {Link} from 'react-router-dom';
+import {connect} from "react-redux";
+import {loadUserInfo} from "../redux/actions";
 
 class RegistrationPanel extends React.Component {
     constructor(props) {
@@ -11,7 +13,6 @@ class RegistrationPanel extends React.Component {
             login: '',
             password: ''
         }
-
         this.handleInputChange = this.handleInputChange.bind(this)
     }
     handleInputChange(event) {
@@ -24,7 +25,6 @@ class RegistrationPanel extends React.Component {
     }
 
     render() {
-
         return (
             <div className="color">
                 <div className="fadeInDown color">
@@ -62,6 +62,11 @@ class RegistrationPanel extends React.Component {
         )
     }
 }
+const mapDispatchToProps = {
+    createPost, showAlert
+};
+const mapStateToProps = state => ({
+    alert: state.app.alert
 
-
-export default RegistrationPanel;
+});
+export default connect(mapStateToProps, mapDispatchToProps)(RegistrationPanel);

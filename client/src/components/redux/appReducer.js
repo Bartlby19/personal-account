@@ -1,4 +1,4 @@
-import {CHEK_USER, LOAD_USER_INFO, CLOSE_POPUP} from "./types";
+import {LOG_IN_USER, LOAD_USER_INFO, CLOSE_POPUP} from "./types";
 
 const initialState = {
     addressList: false,
@@ -7,7 +7,7 @@ const initialState = {
 
 export const appReducer = (state = initialState, action) => {
     switch (action.type) {
-        case CHEK_USER:
+        case LOG_IN_USER:
             return {...state, addressList: action.payload}
         case LOAD_USER_INFO:
             return {...state, registrationStatus: action.payload}
