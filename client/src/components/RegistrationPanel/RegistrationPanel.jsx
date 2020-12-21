@@ -23,8 +23,16 @@ class RegistrationPanel extends React.Component {
             [name]: value
         })
     }
-
+    onClickRegistration() {
+        let registration = this.props.loadUserInfo;
+        registration(this.state);
+    }
     render() {
+        let disableButton;
+        let map = new Map(Object.entries(this.state))
+        for (let [, value] of map) {
+            disableButton = value.trim() === '';
+        }
         return (
             <div className="color">
                 <div className="fadeInDown color">
@@ -54,7 +62,7 @@ class RegistrationPanel extends React.Component {
                             <input type="password" id="password" name="password" value={this.state.password}
                                    onChange={this.handleInputChange}/>
                         </fieldset>
-                        <button type="submit" className="button"> Sign Up
+                        <button type="submit" className="button"  disabled={disableButton}> Sign Up
                         </button>
                     </form>
                 </div>
@@ -63,10 +71,7 @@ class RegistrationPanel extends React.Component {
     }
 }
 const mapDispatchToProps = {
-    createPost, showAlert
+    loadUserInfo
 };
-const mapStateToProps = state => ({
-    alert: state.app.alert
 
-});
-export default connect(mapStateToProps, mapDispatchToProps)(RegistrationPanel);
+export default connect(null,mapDispatchToProps)(RegistrationPanel);
