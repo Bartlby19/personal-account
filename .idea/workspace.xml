@@ -20,50 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2cfdc4-47b5-481e-98e7-05948af2368b" name="Default Changelist" comment="personal-account">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/107c48c0-7873-42b7-a8d6-3403be7b131d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/243893ff-e782-48a3-bc46-314389230892.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/59d5fa1f-d645-4477-9885-4c06c1d40045.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6e6ff5bc-66ff-450d-a111-e96e060f7b0a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/6f1a3689-da7a-421b-8f26-9a8dc7195460.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/703a732c-6b17-45e2-8327-df5fec14015b.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/78ac6109-dad3-4f52-9580-a57e4f4536fe.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/a16f947e-cc29-4624-b955-b37ff18b61a7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/af2e2899-ff7c-40f0-8af9-2467e8feda7a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/b77c301f-25eb-4067-8a46-1883e19e55a3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/ca1611e7-2e7b-443e-9cff-27d3afb28767.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/df76b4ca-531b-4ca7-a978-857e9de4fadb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/e11e9f24-e8d6-4926-b825-16bdccc3b57a.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f62f53b6-e652-4057-9968-ebfc7d53688e.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/f97f6af2-b536-4eca-b643-387353e5f6cb.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/client.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/ RegistrationPanel/RegistrationPanel.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/AddressList/AddUserInfo/AddUserInfo.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/AddressList/AddUserInfo/AddUserInfor.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/AddressList/AddressList.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/AddressList/AddressList.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/AddressList/AddressTable/AddressTable.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/PopUp/PopUp.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/PopUp/PopUp.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SearchPage/SearchPage.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/SearchPage/SearchPage.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/address-list-manipulation-module /address-list-manipulation-module.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/authorization/authorization.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/create-database-table/create-database-table.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/create-database-table/create-tables-sql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/.bin/babylon" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/.bin/detect-libc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/.bin/needle" afterDir="false" />
@@ -5736,38 +5693,7 @@
       <change afterPath="$PROJECT_DIR$/server/node_modules/yallist/iterator.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/yallist/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/yallist/yallist.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/registration-database/database.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/registration-database/registration-database.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/routes/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/client/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/bin_www.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/.eslintcache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AddressesList/AddressesList.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AutorizationPanel/AuthorizationPanel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AutorizationPanel/AuthorizationPanel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Loader/Loader.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/RegistrationPanel/RegistrationPanel.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ RegistrationPanel/RegistrationPanel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/RegistrationPanel/RegistrationPanel.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/redux/actions.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/redux/appReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/redux/rootReducer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/redux/types.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/redux/utils.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/server/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/.bin/jade" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/accepts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/accepts/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/acorn-globals/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/acorn-globals/index.js" afterDir="false" />
@@ -6156,14 +6082,6 @@
       <change beforePath="$PROJECT_DIR$/server/node_modules/wordwrap/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/concat-map/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/wordwrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/wordwrap/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/yargs/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/registration/registration.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/addressList.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/views/error.jade" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/error.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/views/index.jade" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/views/layout.jade" beforeDir="false" afterPath="$PROJECT_DIR$/server/views/layout.pug" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -6195,7 +6113,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="13.12.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="13.13.36" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/bin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -6209,26 +6127,28 @@
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/server/bin" />
-      <recent name="$PROJECT_DIR$/server" />
-      <recent name="$PROJECT_DIR$/client/src/components" />
-      <recent name="$PROJECT_DIR$/src/components" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/components/Loader" />
       <recent name="$PROJECT_DIR$/client/src/components/AddressesList" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/server/bin" />
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/client/src/components" />
+      <recent name="$PROJECT_DIR$/src/components" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.startServer">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -6301,7 +6221,8 @@
       <workItem from="1608754087119" duration="1039000" />
       <workItem from="1608755222958" duration="24878000" />
       <workItem from="1608895248453" duration="1064000" />
-      <workItem from="1608896514622" duration="35781000" />
+      <workItem from="1608896514622" duration="36056000" />
+      <workItem from="1608936239669" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="personal-account">
       <created>1608560056749</created>
@@ -6345,7 +6266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608589067594</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="personal-account">
+      <created>1608935720179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608935720180</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -6384,98 +6312,98 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="697" y="414" width="517" height="281" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.24.1920.1056@0.24.1920.1056" timestamp="1608923386820" />
-    <state x="476" y="179" width="959" height="751" key="CommitChangelistDialog2" timestamp="1608935530095">
+    <state x="476" y="179" width="959" height="751" key="CommitChangelistDialog2" timestamp="1608935714103">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="476" y="179" width="959" height="751" key="CommitChangelistDialog2/0.24.1920.1056@0.24.1920.1056" timestamp="1608935530095" />
+    <state x="476" y="179" width="959" height="751" key="CommitChangelistDialog2/0.24.1920.1056@0.24.1920.1056" timestamp="1608935714103" />
     <state width="1035" height="547" key="DebuggerActiveHint" timestamp="1608930985359">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state width="1035" height="547" key="DebuggerActiveHint/0.24.1920.1056@0.24.1920.1056" timestamp="1608930985359" />
-    <state x="183" y="118" width="1538" height="875" key="DiffContextDialog" timestamp="1608935508486">
+    <state x="183" y="118" width="1538" height="875" key="DiffContextDialog" timestamp="1608935730655">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="183" y="118" width="1538" height="875" key="DiffContextDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1608935508486" />
+    <state x="183" y="118" width="1538" height="875" key="DiffContextDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1608935730655" />
     <state x="743" y="312" width="426" height="485" key="FileChooserDialogImpl" timestamp="1608631413793">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="743" y="312" width="426" height="485" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1608631413793" />
-    <state x="793" y="468" width="334" height="174" key="Github.Dialog.Accounts.Choose" timestamp="1608589078640">
+    <state x="793" y="468" width="334" height="174" key="Github.Dialog.Accounts.Choose" timestamp="1608935740458">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="793" y="468" width="334" height="174" key="Github.Dialog.Accounts.Choose/0.24.1920.1056@0.24.1920.1056" timestamp="1608589078640" />
-    <state width="1872" height="414" key="GridCell.Tab.0.bottom" timestamp="1608935463178">
+    <state x="793" y="468" width="334" height="174" key="Github.Dialog.Accounts.Choose/0.24.1920.1056@0.24.1920.1056" timestamp="1608935740458" />
+    <state width="1872" height="414" key="GridCell.Tab.0.bottom" timestamp="1608935896562">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463178" />
-    <state width="1872" height="414" key="GridCell.Tab.0.center" timestamp="1608935463177">
+    <state width="1872" height="414" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896562" />
+    <state width="1872" height="414" key="GridCell.Tab.0.center" timestamp="1608935896562">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463177" />
-    <state width="1872" height="414" key="GridCell.Tab.0.left" timestamp="1608935463177">
+    <state width="1872" height="414" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896562" />
+    <state width="1872" height="414" key="GridCell.Tab.0.left" timestamp="1608935896562">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463177" />
-    <state width="1872" height="414" key="GridCell.Tab.0.right" timestamp="1608935463178">
+    <state width="1872" height="414" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896562" />
+    <state width="1872" height="414" key="GridCell.Tab.0.right" timestamp="1608935896562">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463178" />
-    <state width="1872" height="414" key="GridCell.Tab.1.bottom" timestamp="1608935463179">
+    <state width="1872" height="414" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896562" />
+    <state width="1872" height="414" key="GridCell.Tab.1.bottom" timestamp="1608935896563">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463179" />
-    <state width="1872" height="414" key="GridCell.Tab.1.center" timestamp="1608935463178">
+    <state width="1872" height="414" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
+    <state width="1872" height="414" key="GridCell.Tab.1.center" timestamp="1608935896563">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463178" />
-    <state width="1872" height="414" key="GridCell.Tab.1.left" timestamp="1608935463178">
+    <state width="1872" height="414" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
+    <state width="1872" height="414" key="GridCell.Tab.1.left" timestamp="1608935896563">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463178" />
-    <state width="1872" height="414" key="GridCell.Tab.1.right" timestamp="1608935463178">
+    <state width="1872" height="414" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
+    <state width="1872" height="414" key="GridCell.Tab.1.right" timestamp="1608935896563">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463178" />
-    <state width="1872" height="414" key="GridCell.Tab.2.bottom" timestamp="1608935463179">
+    <state width="1872" height="414" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
+    <state width="1872" height="414" key="GridCell.Tab.2.bottom" timestamp="1608935896564">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.2.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463179" />
-    <state width="1872" height="414" key="GridCell.Tab.2.center" timestamp="1608935463179">
+    <state width="1872" height="414" key="GridCell.Tab.2.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896564" />
+    <state width="1872" height="414" key="GridCell.Tab.2.center" timestamp="1608935896564">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.2.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463179" />
-    <state width="1872" height="414" key="GridCell.Tab.2.left" timestamp="1608935463179">
+    <state width="1872" height="414" key="GridCell.Tab.2.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896564" />
+    <state width="1872" height="414" key="GridCell.Tab.2.left" timestamp="1608935896563">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.2.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463179" />
-    <state width="1872" height="414" key="GridCell.Tab.2.right" timestamp="1608935463179">
+    <state width="1872" height="414" key="GridCell.Tab.2.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
+    <state width="1872" height="414" key="GridCell.Tab.2.right" timestamp="1608935896564">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463179" />
-    <state width="1872" height="414" key="GridCell.Tab.3.bottom" timestamp="1608935463180">
+    <state width="1872" height="414" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896564" />
+    <state width="1872" height="414" key="GridCell.Tab.3.bottom" timestamp="1608935896565">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.3.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463180" />
-    <state width="1872" height="414" key="GridCell.Tab.3.center" timestamp="1608935463180">
+    <state width="1872" height="414" key="GridCell.Tab.3.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896565" />
+    <state width="1872" height="414" key="GridCell.Tab.3.center" timestamp="1608935896565">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.3.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463180" />
-    <state width="1872" height="414" key="GridCell.Tab.3.left" timestamp="1608935463180">
+    <state width="1872" height="414" key="GridCell.Tab.3.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896565" />
+    <state width="1872" height="414" key="GridCell.Tab.3.left" timestamp="1608935896564">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.3.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463180" />
-    <state width="1872" height="414" key="GridCell.Tab.3.right" timestamp="1608935463180">
+    <state width="1872" height="414" key="GridCell.Tab.3.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896564" />
+    <state width="1872" height="414" key="GridCell.Tab.3.right" timestamp="1608935896565">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.3.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935463180" />
+    <state width="1872" height="414" key="GridCell.Tab.3.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896565" />
     <state x="443" y="132" width="1026" height="846" key="SettingsEditor" timestamp="1608559197226">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="443" y="132" width="1026" height="846" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1608559197226" />
-    <state x="555" y="275" width="802" height="559" key="Vcs.Push.Dialog.v2" timestamp="1608589074635">
+    <state x="555" y="275" width="802" height="559" key="Vcs.Push.Dialog.v2" timestamp="1608935735181">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="555" y="275" width="802" height="559" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1608589074635" />
+    <state x="555" y="275" width="802" height="559" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1608935735181" />
     <state x="808" y="443" width="368" height="257" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1608925406275">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
