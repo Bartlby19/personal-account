@@ -12,6 +12,7 @@ class AuthorizationPanel extends React.Component {
 
         this.handleInputChange = this.handleInputChange.bind(this)
     }
+
     handleInputChange(event) {
         const target = event.target
         const value = target.value
@@ -21,10 +22,17 @@ class AuthorizationPanel extends React.Component {
         })
     }
 
-
-
+    onClickUserSingUp() {
+        this.props.getUserInformation(this.state)
+    }
 
     render() {
+        let disableButton;
+        let map = new Map(Object.entries(this.state))
+        for (let [, value] of map) {
+            disableButton = value.trim() === '';
+        }
+
         return (
             <div className="body bodyColor">
                 <div className="wrapper fadeInDown">
@@ -43,7 +51,9 @@ class AuthorizationPanel extends React.Component {
                             <input type="password" id="password" className="fadeIn third" name="password"
                                    value={this.state.password} onChange={this.handleInputChange}
                                    placeholder="password"/>
-                                <input  type="button" className={"fadeIn fourth"} value="Log In"/>
+                                <input onClick={this.onClickUserSingUp.bind(this)} type="button"
+                                       className={"fadeIn fourth"} disabled={disableButton}
+                                       value="Log In"/>
                         </form>
                     </div>
                 </div>

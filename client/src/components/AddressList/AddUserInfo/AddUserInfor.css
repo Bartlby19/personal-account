@@ -1,0 +1,12 @@
+.form_style {
+    display: flex;
+    background: none;
+    border-radius: 10px 10px 10px 10px;
+}
+.bt_style{
+    height: 32px;
+}
+
+.input_style{
+    border-radius: 10px 10px 10px 10px;
+}
