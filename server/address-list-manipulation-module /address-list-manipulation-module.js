@@ -16,13 +16,12 @@ async function addUserInfo(addInfo) {
 }
 
 async function deleteInfo(deleteInfo) {
-    console.log(deleteInfo)
     return new Promise(async (resolve, reject) => {
         try {
-            let sqlAddressList = `DELETE FROM addressList WHERE ID=${deleteInfo.deleteInfo}`;
+            let sqlAddressList = `DELETE FROM addressList WHERE id=${deleteInfo.deleteInfo}`;
             await execAsync(sqlAddressList);
             let addressList = await getAllAddressList()
-            if (addressList.length===0){
+            if (addressList.length === 0) {
 
             }
             resolve(addressList);
@@ -32,6 +31,30 @@ async function deleteInfo(deleteInfo) {
     });
 }
 
+async function changeInfo(info) {
+    return new Promise(async (resolve, reject) => {
+        let id = info["id"];
+        info["name"] = info["userName"];
+        delete info["userName"];
+        delete info["id"];
+        try {
+            for (let key in info) {
+                if (info[key] !== "") {
+                    let sqlAddressList = `UPDATE addressList SET ${key}=${info[key]}  WHERE id=${id}`;
+                    console.log(sqlAddressList)
+                    await execAsync(sqlAddressList);
+                }
+            }
+            let addressList = await getAllAddressList()
+            if (addressList.length === 0) {
+
+            }
+            resolve(addressList);
+        } catch (err) {
+            reject(error);
+        }
+    });
+}
 
 async function searchUserInfo(searchInfo) {
     return new Promise(async (resolve, reject) => {
@@ -47,6 +70,7 @@ async function searchUserInfo(searchInfo) {
 }
 
 module.exports = {
+    changeInfo: changeInfo,
     addUserInfo: addUserInfo,
     deleteInfo: deleteInfo,
     searchUserInfo: searchUserInfo

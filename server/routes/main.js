@@ -3,6 +3,7 @@ const router = express.Router();
 const bodyParser = require("body-parser");
 const dataBase = require("../registration-database/registration-database");
 const authorization = require("../authorization/authorization")
+const {changeInfo} = require("../address-list-manipulation-module /address-list-manipulation-module");
 const {getAllAddressList} = require("../utils");
 const {deleteInfo} = require("../address-list-manipulation-module /address-list-manipulation-module");
 const {searchUserInfo} = require("../address-list-manipulation-module /address-list-manipulation-module");
@@ -45,6 +46,16 @@ router.post('/delete', async function (req, res) {
     let info = req.body;
     try {
         let msg = await deleteInfo(info);
+        res.send(msg)
+    } catch (error) {
+        res.send(error)
+    }
+});
+
+router.post('/change', async function (req, res) {
+    let info = req.body;
+    try {
+        let msg = await changeInfo(info);
         res.send(msg)
     } catch (error) {
         res.send(error)

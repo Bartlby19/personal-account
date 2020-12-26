@@ -15,7 +15,9 @@ class App extends React.Component {
         this.state = {
             statusRegistration: "",
             personAuthorizationInfo: "",
-            errorAuthorization: ""
+            errorAuthorization: "",
+            showForm: true,
+            idChangUser: ""
         }
     };
 
@@ -57,7 +59,7 @@ class App extends React.Component {
     async generateRequest(data, url, method) {
         let response = await this.sendRequest(data, url, method)
         if (response.length > 0) {
-            this.setState({"personAuthorizationInfo":response})
+            this.setState({"personAuthorizationInfo": response})
             history.push('/addressList')
             return
         }
@@ -66,6 +68,10 @@ class App extends React.Component {
 
     closeRegistrationPopup() {
         this.setState({"statusRegistration": ""})
+    }
+
+    openChangeForm(userId) {
+        this.setState({"showForm": false, "idChangUser": userId})
     }
 
     closeAuthorizationPopup() {
@@ -99,6 +105,36 @@ class App extends React.Component {
     }
 
 
+
+
+
+
+
+
+
+
+
+    async sendInfoForChange(changeInfo) {
+       changeInfo["id"]=this.state.idChangUser;
+        const url = "main/change";
+        let response = await this.sendRequest(changeInfo, url, "POST")
+            this.setState({"personAuthorizationInfo":response})
+            history.push('/addressList')
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     async sendInfoForAdding(addingInfo) {
         const url = "main/add";
              await this.generateRequest(addingInfo, url, "POST")
@@ -126,6 +162,9 @@ class App extends React.Component {
                         <Popup text={this.state.errorAuthorization}
                                closePopup={this.closeAuthorizationPopup.bind(this)}/>
                         : <Route exact path='/addressList' render={() => <AddressList
+                            changeData={this.sendInfoForChange.bind(this)}
+                            openChangeForm={this.openChangeForm.bind(this)}
+                            showForm={this.state.showForm}
                             logOutFromSession={this.logOutFromSession.bind(this)}
                             addUserInfo={this.sendInfoForAdding.bind(this)}
                             deleteUserInfo={this.sendDeleteInfo.bind(this)}

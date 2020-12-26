@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df2cfdc4-47b5-481e-98e7-05948af2368b" name="Default Changelist" comment="personal-account">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/db.sqlite3" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/.bin/babylon" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/.bin/detect-libc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/.bin/needle" afterDir="false" />
@@ -1528,6 +1528,7 @@
       <change afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.date.to-json.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.function.bind.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.function.has-instance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.function.name.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.map.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.math.acosh.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.math.asinh.js" afterDir="false" />
@@ -5694,6 +5695,10 @@
       <change afterPath="$PROJECT_DIR$/server/node_modules/yallist/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/node_modules/yallist/yallist.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AddressList/AddressList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AddressList/AddressList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/AddressList/AddressTable/AddressTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AddressList/AddressTable/AddressTable.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/address-list-manipulation-module /address-list-manipulation-module.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/address-list-manipulation-module /address-list-manipulation-module.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/.bin/jade" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/accepts/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/accepts/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/acorn-globals/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/acorn-globals/index.js" afterDir="false" />
@@ -5714,7 +5719,7 @@
       <change beforePath="$PROJECT_DIR$/server/node_modules/acorn/src/identifier.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/acorn/src/identifier.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/acorn/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/acorn/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/acorn/src/location.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/acorn/src/location.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/acorn/src/loose/acorn_loose.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.date.to-primitive.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/acorn/src/loose/acorn_loose.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/AddressList/UpdateDataForm/UpdateDataForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/acorn/src/loose/expression.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/acorn/src/loose/expression.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/acorn/src/loose/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/acorn/src/loose/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/acorn/src/loose/state.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/acorn/src/loose/state.js" afterDir="false" />
@@ -5836,7 +5841,7 @@
       <change beforePath="$PROJECT_DIR$/server/node_modules/jade/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/jade/Readme_zh-cn.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/jade/bin/jade.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/jade/block-code.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.date.to-string.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/jade/block-code.html" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.date.to-primitive.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/jade/component.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/jade/jade.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/jade/lib/compiler.js" beforeDir="false" />
@@ -6059,7 +6064,7 @@
       <change beforePath="$PROJECT_DIR$/server/node_modules/with/node_modules/acorn/src/identifier.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/with/node_modules/acorn/src/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/with/node_modules/acorn/src/location.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/node_modules/with/node_modules/acorn/src/loose/acorn_loose.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.function.name.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/node_modules/with/node_modules/acorn/src/loose/acorn_loose.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/core-js/library/modules/es6.date.to-string.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/with/node_modules/acorn/src/loose/expression.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/with/node_modules/acorn/src/loose/index.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/with/node_modules/acorn/src/loose/parseutil.js" beforeDir="false" />
@@ -6082,6 +6087,7 @@
       <change beforePath="$PROJECT_DIR$/server/node_modules/wordwrap/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/concat-map/LICENSE" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/wordwrap/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/wordwrap/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/node_modules/yargs/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/node_modules/yargs/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -6095,6 +6101,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1lyAKvkkxjWja3IRILfs06DCPTE" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
     <option name="autoscrollFromSource" value="true" />
@@ -6108,6 +6117,7 @@
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -6140,15 +6150,13 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.startServer">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -6222,7 +6230,8 @@
       <workItem from="1608755222958" duration="24878000" />
       <workItem from="1608895248453" duration="1064000" />
       <workItem from="1608896514622" duration="36056000" />
-      <workItem from="1608936239669" duration="742000" />
+      <workItem from="1608936239669" duration="899000" />
+      <workItem from="1608938743924" duration="12234000" />
     </task>
     <task id="LOCAL-00001" summary="personal-account">
       <created>1608560056749</created>
@@ -6273,7 +6282,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608935720180</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Readme file.">
+      <created>1608937087335</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608937087335</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -6292,8 +6308,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="personal-account" />
-    <option name="LAST_COMMIT_MESSAGE" value="personal-account" />
+    <MESSAGE value="Readme file." />
+    <option name="LAST_COMMIT_MESSAGE" value="Readme file." />
   </component>
   <component name="WindowStateProjectService">
     <state x="555" y="216" width="802" height="678" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608639430806">
@@ -6304,106 +6322,106 @@
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="658" y="353" width="595" height="403" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1608825445464" />
-    <state x="938" y="257" key="#xdebugger.evaluate" timestamp="1608931053669">
+    <state x="938" y="257" key="#xdebugger.evaluate" timestamp="1608950122160">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="938" y="257" key="#xdebugger.evaluate/0.24.1920.1056@0.24.1920.1056" timestamp="1608931053669" />
+    <state x="938" y="257" key="#xdebugger.evaluate/0.24.1920.1056@0.24.1920.1056" timestamp="1608950122160" />
     <state x="697" y="414" width="517" height="281" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1608923386820">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="697" y="414" width="517" height="281" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.24.1920.1056@0.24.1920.1056" timestamp="1608923386820" />
-    <state x="476" y="179" width="959" height="751" key="CommitChangelistDialog2" timestamp="1608935714103">
+    <state x="476" y="179" width="959" height="751" key="CommitChangelistDialog2" timestamp="1608937081090">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="476" y="179" width="959" height="751" key="CommitChangelistDialog2/0.24.1920.1056@0.24.1920.1056" timestamp="1608935714103" />
-    <state width="1035" height="547" key="DebuggerActiveHint" timestamp="1608930985359">
+    <state x="476" y="179" width="959" height="751" key="CommitChangelistDialog2/0.24.1920.1056@0.24.1920.1056" timestamp="1608937081090" />
+    <state width="1035" height="547" key="DebuggerActiveHint" timestamp="1608950667390">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1035" height="547" key="DebuggerActiveHint/0.24.1920.1056@0.24.1920.1056" timestamp="1608930985359" />
-    <state x="183" y="118" width="1538" height="875" key="DiffContextDialog" timestamp="1608935730655">
+    <state width="1035" height="547" key="DebuggerActiveHint/0.24.1920.1056@0.24.1920.1056" timestamp="1608950667390" />
+    <state x="183" y="118" width="1538" height="875" key="DiffContextDialog" timestamp="1608937064198">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="183" y="118" width="1538" height="875" key="DiffContextDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1608935730655" />
+    <state x="183" y="118" width="1538" height="875" key="DiffContextDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1608937064198" />
     <state x="743" y="312" width="426" height="485" key="FileChooserDialogImpl" timestamp="1608631413793">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="743" y="312" width="426" height="485" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1608631413793" />
-    <state x="793" y="468" width="334" height="174" key="Github.Dialog.Accounts.Choose" timestamp="1608935740458">
+    <state x="793" y="468" width="334" height="174" key="Github.Dialog.Accounts.Choose" timestamp="1608937094300">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="793" y="468" width="334" height="174" key="Github.Dialog.Accounts.Choose/0.24.1920.1056@0.24.1920.1056" timestamp="1608935740458" />
-    <state width="1872" height="414" key="GridCell.Tab.0.bottom" timestamp="1608935896562">
+    <state x="793" y="468" width="334" height="174" key="Github.Dialog.Accounts.Choose/0.24.1920.1056@0.24.1920.1056" timestamp="1608937094300" />
+    <state width="1289" height="389" key="GridCell.Tab.0.bottom" timestamp="1608950993798">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896562" />
-    <state width="1872" height="414" key="GridCell.Tab.0.center" timestamp="1608935896562">
+    <state width="1289" height="389" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608950993798" />
+    <state width="1289" height="389" key="GridCell.Tab.0.center" timestamp="1608950993798">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896562" />
-    <state width="1872" height="414" key="GridCell.Tab.0.left" timestamp="1608935896562">
+    <state width="1289" height="389" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608950993798" />
+    <state width="1289" height="389" key="GridCell.Tab.0.left" timestamp="1608950993798">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896562" />
-    <state width="1872" height="414" key="GridCell.Tab.0.right" timestamp="1608935896562">
+    <state width="1289" height="389" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608950993798" />
+    <state width="1289" height="389" key="GridCell.Tab.0.right" timestamp="1608950993798">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896562" />
-    <state width="1872" height="414" key="GridCell.Tab.1.bottom" timestamp="1608935896563">
+    <state width="1289" height="389" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608950993798" />
+    <state width="1872" height="358" key="GridCell.Tab.1.bottom" timestamp="1608950942440">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
-    <state width="1872" height="414" key="GridCell.Tab.1.center" timestamp="1608935896563">
+    <state width="1872" height="358" key="GridCell.Tab.1.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942440" />
+    <state width="1872" height="358" key="GridCell.Tab.1.center" timestamp="1608950942439">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
-    <state width="1872" height="414" key="GridCell.Tab.1.left" timestamp="1608935896563">
+    <state width="1872" height="358" key="GridCell.Tab.1.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942439" />
+    <state width="1872" height="358" key="GridCell.Tab.1.left" timestamp="1608950942439">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
-    <state width="1872" height="414" key="GridCell.Tab.1.right" timestamp="1608935896563">
+    <state width="1872" height="358" key="GridCell.Tab.1.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942439" />
+    <state width="1872" height="358" key="GridCell.Tab.1.right" timestamp="1608950942440">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
-    <state width="1872" height="414" key="GridCell.Tab.2.bottom" timestamp="1608935896564">
+    <state width="1872" height="358" key="GridCell.Tab.1.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942440" />
+    <state width="1872" height="358" key="GridCell.Tab.2.bottom" timestamp="1608950942441">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.2.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896564" />
-    <state width="1872" height="414" key="GridCell.Tab.2.center" timestamp="1608935896564">
+    <state width="1872" height="358" key="GridCell.Tab.2.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942441" />
+    <state width="1872" height="358" key="GridCell.Tab.2.center" timestamp="1608950942440">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.2.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896564" />
-    <state width="1872" height="414" key="GridCell.Tab.2.left" timestamp="1608935896563">
+    <state width="1872" height="358" key="GridCell.Tab.2.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942440" />
+    <state width="1872" height="358" key="GridCell.Tab.2.left" timestamp="1608950942440">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.2.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896563" />
-    <state width="1872" height="414" key="GridCell.Tab.2.right" timestamp="1608935896564">
+    <state width="1872" height="358" key="GridCell.Tab.2.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942440" />
+    <state width="1872" height="358" key="GridCell.Tab.2.right" timestamp="1608950942441">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896564" />
-    <state width="1872" height="414" key="GridCell.Tab.3.bottom" timestamp="1608935896565">
+    <state width="1872" height="358" key="GridCell.Tab.2.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942441" />
+    <state width="1872" height="358" key="GridCell.Tab.3.bottom" timestamp="1608950942442">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.3.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896565" />
-    <state width="1872" height="414" key="GridCell.Tab.3.center" timestamp="1608935896565">
+    <state width="1872" height="358" key="GridCell.Tab.3.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942442" />
+    <state width="1872" height="358" key="GridCell.Tab.3.center" timestamp="1608950942441">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.3.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896565" />
-    <state width="1872" height="414" key="GridCell.Tab.3.left" timestamp="1608935896564">
+    <state width="1872" height="358" key="GridCell.Tab.3.center/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942441" />
+    <state width="1872" height="358" key="GridCell.Tab.3.left" timestamp="1608950942441">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.3.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896564" />
-    <state width="1872" height="414" key="GridCell.Tab.3.right" timestamp="1608935896565">
+    <state width="1872" height="358" key="GridCell.Tab.3.left/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942441" />
+    <state width="1872" height="358" key="GridCell.Tab.3.right" timestamp="1608950942441">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state width="1872" height="414" key="GridCell.Tab.3.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608935896565" />
+    <state width="1872" height="358" key="GridCell.Tab.3.right/0.24.1920.1056@0.24.1920.1056" timestamp="1608950942441" />
     <state x="443" y="132" width="1026" height="846" key="SettingsEditor" timestamp="1608559197226">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
     <state x="443" y="132" width="1026" height="846" key="SettingsEditor/0.24.1920.1056@0.24.1920.1056" timestamp="1608559197226" />
-    <state x="555" y="275" width="802" height="559" key="Vcs.Push.Dialog.v2" timestamp="1608935735181">
+    <state x="555" y="275" width="802" height="559" key="Vcs.Push.Dialog.v2" timestamp="1608937089894">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
-    <state x="555" y="275" width="802" height="559" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1608935735181" />
+    <state x="555" y="275" width="802" height="559" key="Vcs.Push.Dialog.v2/0.24.1920.1056@0.24.1920.1056" timestamp="1608937089894" />
     <state x="808" y="443" width="368" height="257" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1608925406275">
       <screen x="0" y="24" width="1920" height="1056" />
     </state>
@@ -6452,6 +6470,36 @@
           <url>vmscript://vm:912</url>
           <line>5</line>
           <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/address-list-manipulation-module /address-list-manipulation-module.js</url>
+          <line>44</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/address-list-manipulation-module /address-list-manipulation-module.js</url>
+          <line>45</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="112" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/address-list-manipulation-module /address-list-manipulation-module.js</url>
+          <line>51</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/address-list-manipulation-module /address-list-manipulation-module.js</url>
+          <line>52</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server/address-list-manipulation-module /address-list-manipulation-module.js</url>
+          <line>53</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="115" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import AddressTable from "./AddressTable/AddressTable.jsx";
 import AddUserInfo from "./AddUserInfo/AddUserInfo.jsx";
 import SearchPage from "../SearchPage/SearchPage";
+import UpdateDataForm from "./UpdateDataForm/UpdateDataForm";
 
 class AddressList extends React.Component {
 
@@ -20,41 +21,49 @@ class AddressList extends React.Component {
                     phone={address[i]["phone"]}
                     city={address[i]["city"]}
                     deleteUserInfo={this.props.deleteUserInfo}
+                    openChangeForm={this.props.openChangeForm}
                 />
             showAddressList.push(dataComponent)
         }
         return (
-            <div>
-                <div className=" button_padding">
-                    <Link to='/'>
-                        <button onClick={this.props.logOutFromSession} className="btn btn-primary button_padding">Log
-                            out
-                        </button>
-                    </Link>
+            <>
+                {this.props.showForm ?
                     <div>
-                        <SearchPage searchUserInfo={this.props.searchUserInfo} update={this.props.update}/>
+                        <div className=" button_padding">
+                            <Link to='/'>
+                                <button onClick={this.props.logOutFromSession}
+                                        className="btn btn-primary button_padding">Log
+                                    out
+                                </button>
+                            </Link>
+                            <div>
+                                <SearchPage searchUserInfo={this.props.searchUserInfo} update={this.props.update}/>
+                            </div>
+                        </div>
+                        <AddUserInfo addUserInfo={this.props.addUserInfo}/>
+                        <div>
+                        </div>
+                        <div>
+                            <table className="table">
+                                <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">User name</th>
+                                    <th scope="col">Phone</th>
+                                    <th scope="col">City</th>
+                                    <th scope="col">Change Data</th>
+                                    <th scope="col">Delete</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                {showAddressList}
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                </div>
-                <AddUserInfo addUserInfo={this.props.addUserInfo}/>
-                <div>
-                </div>
-                <div>
-                    <table className="table">
-                        <thead>
-                        <tr>
-                            <th scope="col">#</th>
-                            <th scope="col">User name</th>
-                            <th scope="col">Phone</th>
-                            <th scope="col">City</th>
-                            <th scope="col">Delete</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        {showAddressList}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
+                    : <UpdateDataForm changeData={this.props.changeData}/>}
+            </>
+
         );
     }
 }
